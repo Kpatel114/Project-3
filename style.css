@@ -36,7 +36,6 @@ ul{
   text-align: left;
   list-style-position:inside;
   color: white;
-
 }
 .center{
   display: block;
@@ -54,7 +53,7 @@ nav ul li a{
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
 #map {
-	width: 800px
+	width: 800px;
 	height: 800px;
 	margin: 10px auto;
 	background-image: url("images/forest.jpg");
@@ -103,3 +102,4 @@ body {
 	}
 	nav ul li a{
 		color: yellow;
+	}
