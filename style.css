@@ -37,7 +37,6 @@ ul{
   list-style-position:inside;
   color: white;
 
-
 }
 .center{
   display: block;
@@ -55,7 +54,10 @@ nav ul li a{
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
 #map {
-	height: 100%;
+	width: 800px
+	height: 800px;
+	margin: 10px auto;
+	background-image: url("images/forest.jpg");
 }
 
 .map, 
@@ -65,17 +67,6 @@ body {
 	margin: 0;
 	padding: 0;
  }
-<<<<<<< HEAD
-carousel-container{
-		width: 60%;
-		margin: auto;
-		border: 5px solid-black;
- }
-carousel-slide{
-	display: flex;
-	width: 100%;
-	height: 500px;
-}
 @media screen and (min-width: 450px) {
   ul{
 		display: flex;
@@ -112,24 +103,3 @@ carousel-slide{
 	}
 	nav ul li a{
 		color: yellow;
-=======
-@media screen and (min-width: 900px) {
-  #h1{
-		background-color: pink;
-	}
-	
-	html{
-		font-size: 50px;
-	}
-}
-
-@media screen and (min-width: 1000px) {
-  #h1{
-		color: green;
-	}
-	
-	html{
-		font-size: 100px;
->>>>>>> a6a470b3a2524f4bf315f1f10ab4475d0bc34692
-	}
-}
